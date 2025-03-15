@@ -1,0 +1,6 @@
+Name,Risk Score,Severity,Description,URL
+SQL Injection,9.0,Critical,"The application is vulnerable to SQL injection, allowing attackers to execute arbitrary SQL queries.",http://localhost:3000/login
+Cross-Site Scripting (XSS),6.3,High,"The application does not properly sanitize user input, allowing attackers to inject malicious scripts.",http://localhost:3000/search
+Broken Authentication,8.0,Critical,The application allows brute-force attacks on the login page due to weak authentication mechanisms.,http://localhost:3000/login
+Sensitive Data Exposure,4.8,Medium,"The application transmits sensitive data (e.g., passwords) over unencrypted channels.",http://localhost:3000/api/user
+Security Misconfiguration,2.1,Low,"The server exposes unnecessary information (e.g., server version) in HTTP headers.",http://localhost:3000

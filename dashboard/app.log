@@ -1,0 +1,161 @@
+2025-03-06 07:02:02,936 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 07:02:02,936 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 07:02:02,978 - INFO -  * Restarting with stat
+2025-03-06 07:02:03,327 - WARNING -  * Debugger is active!
+2025-03-06 07:02:03,388 - INFO -  * Debugger PIN: 421-828-945
+2025-03-06 07:02:47,679 - INFO - 127.0.0.1 - - [06/Mar/2025 07:02:47] "GET / HTTP/1.1" 200 -
+2025-03-06 07:02:48,544 - INFO - 127.0.0.1 - - [06/Mar/2025 07:02:48] "GET /results HTTP/1.1" 200 -
+2025-03-06 07:02:48,613 - INFO - 127.0.0.1 - - [06/Mar/2025 07:02:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-06 07:03:40,494 - INFO - 127.0.0.1 - - [06/Mar/2025 07:03:40] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-06 08:11:20,352 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-06 08:11:20,353 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-06 08:11:20,353 - INFO -  * Restarting with stat
+2025-03-06 08:11:20,685 - WARNING -  * Debugger is active!
+2025-03-06 08:11:20,685 - INFO -  * Debugger PIN: 421-828-945
+2025-03-06 08:11:57,888 - INFO - 127.0.0.1 - - [06/Mar/2025 08:11:57] "GET / HTTP/1.1" 200 -
+2025-03-06 08:11:58,270 - INFO - 127.0.0.1 - - [06/Mar/2025 08:11:58] "GET /results HTTP/1.1" 200 -
+2025-03-10 10:15:14,958 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 10:15:14,987 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 10:15:15,005 - INFO -  * Restarting with stat
+2025-03-10 10:15:15,271 - WARNING -  * Debugger is active!
+2025-03-10 10:15:15,294 - INFO -  * Debugger PIN: 421-828-945
+2025-03-10 10:15:26,425 - INFO - 127.0.0.1 - - [10/Mar/2025 10:15:26] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-10 10:52:18,777 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 10:52:18,778 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 10:52:18,779 - INFO -  * Restarting with stat
+2025-03-10 10:52:19,035 - WARNING -  * Debugger is active!
+2025-03-10 10:52:19,037 - INFO -  * Debugger PIN: 421-828-945
+2025-03-10 10:52:55,005 - INFO - 127.0.0.1 - - [10/Mar/2025 10:52:55] "GET / HTTP/1.1" 200 -
+2025-03-10 10:53:05,036 - INFO - 127.0.0.1 - - [10/Mar/2025 10:53:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 10:53:05,086 - INFO - 127.0.0.1 - - [10/Mar/2025 10:53:05] "GET /results HTTP/1.1" 200 -
+2025-03-10 10:53:21,248 - INFO - 127.0.0.1 - - [10/Mar/2025 10:53:21] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-10 11:10:55,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 11:10:55,461 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 11:10:55,464 - INFO -  * Restarting with stat
+2025-03-10 11:10:55,720 - WARNING -  * Debugger is active!
+2025-03-10 11:10:55,722 - INFO -  * Debugger PIN: 421-828-945
+2025-03-10 11:11:02,117 - INFO - 127.0.0.1 - - [10/Mar/2025 11:11:02] "GET / HTTP/1.1" 200 -
+2025-03-10 11:11:02,858 - INFO - 127.0.0.1 - - [10/Mar/2025 11:11:02] "GET /results HTTP/1.1" 200 -
+2025-03-10 11:11:09,478 - INFO - 127.0.0.1 - - [10/Mar/2025 11:11:09] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-10 11:21:14,420 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 11:21:14,420 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 11:21:14,422 - INFO -  * Restarting with stat
+2025-03-10 11:21:14,674 - WARNING -  * Debugger is active!
+2025-03-10 11:21:14,675 - INFO -  * Debugger PIN: 421-828-945
+2025-03-10 11:21:27,183 - INFO - 127.0.0.1 - - [10/Mar/2025 11:21:27] "GET / HTTP/1.1" 200 -
+2025-03-10 11:21:27,449 - INFO - 127.0.0.1 - - [10/Mar/2025 11:21:27] "GET /results HTTP/1.1" 200 -
+2025-03-10 11:21:39,908 - INFO - 127.0.0.1 - - [10/Mar/2025 11:21:39] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-10 11:29:32,157 - INFO - 127.0.0.1 - - [10/Mar/2025 11:29:32] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-10 11:30:09,837 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 11:30:09,837 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 11:30:09,838 - INFO -  * Restarting with stat
+2025-03-10 11:30:10,094 - WARNING -  * Debugger is active!
+2025-03-10 11:30:10,096 - INFO -  * Debugger PIN: 421-828-945
+2025-03-10 11:31:43,370 - INFO - 127.0.0.1 - - [10/Mar/2025 11:31:43] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-10 12:00:10,968 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 12:00:10,968 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 12:00:10,969 - INFO -  * Restarting with stat
+2025-03-10 12:00:11,276 - WARNING -  * Debugger is active!
+2025-03-10 12:00:11,278 - INFO -  * Debugger PIN: 421-828-945
+2025-03-10 12:00:54,395 - INFO - 127.0.0.1 - - [10/Mar/2025 12:00:54] "GET / HTTP/1.1" 200 -
+2025-03-10 12:00:54,838 - INFO - 127.0.0.1 - - [10/Mar/2025 12:00:54] "GET /results HTTP/1.1" 200 -
+2025-03-10 12:00:54,851 - INFO - 127.0.0.1 - - [10/Mar/2025 12:00:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 12:01:08,099 - INFO - 127.0.0.1 - - [10/Mar/2025 12:01:08] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-10 12:09:08,712 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 12:09:08,713 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 12:09:08,714 - INFO -  * Restarting with stat
+2025-03-10 12:09:09,007 - WARNING -  * Debugger is active!
+2025-03-10 12:09:09,008 - INFO -  * Debugger PIN: 421-828-945
+2025-03-10 12:09:13,562 - INFO - 127.0.0.1 - - [10/Mar/2025 12:09:13] "GET / HTTP/1.1" 200 -
+2025-03-10 12:09:13,935 - INFO - 127.0.0.1 - - [10/Mar/2025 12:09:13] "GET /results HTTP/1.1" 200 -
+2025-03-10 12:09:51,334 - INFO - 127.0.0.1 - - [10/Mar/2025 12:09:51] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-10 12:21:50,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 12:21:50,025 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 12:21:50,026 - INFO -  * Restarting with stat
+2025-03-10 12:21:50,331 - WARNING -  * Debugger is active!
+2025-03-10 12:21:50,332 - INFO -  * Debugger PIN: 421-828-945
+2025-03-10 12:21:52,994 - INFO - 127.0.0.1 - - [10/Mar/2025 12:21:52] "GET / HTTP/1.1" 200 -
+2025-03-10 12:21:53,333 - INFO - 127.0.0.1 - - [10/Mar/2025 12:21:53] "GET /results HTTP/1.1" 200 -
+2025-03-10 12:21:59,544 - INFO - 127.0.0.1 - - [10/Mar/2025 12:21:59] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-12 06:50:34,198 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 06:50:34,199 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 06:50:34,200 - INFO -  * Restarting with stat
+2025-03-12 06:50:34,447 - WARNING -  * Debugger is active!
+2025-03-12 06:50:34,520 - INFO -  * Debugger PIN: 421-828-945
+2025-03-12 06:50:40,220 - INFO - 127.0.0.1 - - [12/Mar/2025 06:50:40] "GET / HTTP/1.1" 200 -
+2025-03-12 06:50:40,848 - INFO - 127.0.0.1 - - [12/Mar/2025 06:50:40] "GET /results HTTP/1.1" 200 -
+2025-03-12 07:02:11,459 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 07:02:11,459 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 07:02:11,460 - INFO -  * Restarting with stat
+2025-03-12 07:02:11,719 - WARNING -  * Debugger is active!
+2025-03-12 07:02:11,720 - INFO -  * Debugger PIN: 421-828-945
+2025-03-12 07:06:39,259 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 07:06:39,259 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 07:06:39,260 - INFO -  * Restarting with stat
+2025-03-12 07:06:39,530 - WARNING -  * Debugger is active!
+2025-03-12 07:06:39,531 - INFO -  * Debugger PIN: 421-828-945
+2025-03-12 07:11:48,160 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 07:11:48,160 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 07:11:48,160 - INFO -  * Restarting with stat
+2025-03-12 07:11:48,423 - WARNING -  * Debugger is active!
+2025-03-12 07:11:48,423 - INFO -  * Debugger PIN: 421-828-945
+2025-03-12 07:12:35,086 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 07:12:35,086 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 07:12:35,087 - INFO -  * Restarting with stat
+2025-03-12 07:12:35,347 - WARNING -  * Debugger is active!
+2025-03-12 07:12:35,347 - INFO -  * Debugger PIN: 421-828-945
+2025-03-12 07:14:46,124 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 07:14:46,124 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 07:14:46,125 - INFO -  * Restarting with stat
+2025-03-12 07:14:46,377 - WARNING -  * Debugger is active!
+2025-03-12 07:14:46,378 - INFO -  * Debugger PIN: 421-828-945
+2025-03-12 07:25:06,167 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 07:25:06,167 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 07:25:06,169 - INFO -  * Restarting with stat
+2025-03-12 07:25:06,416 - WARNING -  * Debugger is active!
+2025-03-12 07:25:06,416 - INFO -  * Debugger PIN: 421-828-945
+2025-03-12 07:26:49,633 - INFO - 127.0.0.1 - - [12/Mar/2025 07:26:49] "GET / HTTP/1.1" 200 -
+2025-03-12 07:26:49,914 - INFO - 127.0.0.1 - - [12/Mar/2025 07:26:49] "GET /results HTTP/1.1" 200 -
+2025-03-12 07:29:53,859 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 07:29:53,859 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 07:29:53,859 - INFO -  * Restarting with stat
+2025-03-12 07:29:54,103 - WARNING -  * Debugger is active!
+2025-03-12 07:29:54,104 - INFO -  * Debugger PIN: 421-828-945
+2025-03-12 07:29:56,315 - INFO - 127.0.0.1 - - [12/Mar/2025 07:29:56] "GET / HTTP/1.1" 200 -
+2025-03-12 07:29:56,519 - INFO - 127.0.0.1 - - [12/Mar/2025 07:29:56] "GET /results HTTP/1.1" 200 -
+2025-03-12 07:30:09,348 - INFO - 127.0.0.1 - - [12/Mar/2025 07:30:09] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-13 09:07:18,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 09:07:18,455 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 09:07:18,460 - INFO -  * Restarting with stat
+2025-03-13 09:07:18,778 - WARNING -  * Debugger is active!
+2025-03-13 09:07:18,779 - INFO -  * Debugger PIN: 421-828-945
+2025-03-13 09:07:31,963 - INFO - 127.0.0.1 - - [13/Mar/2025 09:07:31] "GET / HTTP/1.1" 200 -
+2025-03-13 09:07:33,322 - INFO - 127.0.0.1 - - [13/Mar/2025 09:07:33] "GET /results HTTP/1.1" 200 -
+2025-03-13 09:12:25,165 - INFO - 127.0.0.1 - - [13/Mar/2025 09:12:25] "GET /generate_report/pdf HTTP/1.1" 200 -
+2025-03-15 09:16:23,034 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 09:16:23,034 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 09:16:23,036 - INFO -  * Restarting with stat
+2025-03-15 09:16:23,320 - WARNING -  * Debugger is active!
+2025-03-15 09:16:23,321 - INFO -  * Debugger PIN: 421-828-945
+2025-03-15 09:16:44,294 - INFO - 127.0.0.1 - - [15/Mar/2025 09:16:44] "GET / HTTP/1.1" 200 -
+2025-03-15 09:16:45,679 - INFO - 127.0.0.1 - - [15/Mar/2025 09:16:45] "GET /results HTTP/1.1" 200 -

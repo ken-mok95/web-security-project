@@ -1,0 +1,86 @@
+[
+    {
+        "alert": "Broken Access Control",
+        "risk": "High",
+        "confidence": "High",
+        "description": "Users can access resources they are not authorized to view, leading to potential data exposure.",
+        "solution": "Implement proper access controls to restrict user access to resources based on their roles.",
+        "reference": "https://owasp.org/www-project-top-ten/2021/Broken-Access-Control",
+        "cweid": "284",
+        "wascid": "22",
+        "url": "http://localhost:3000/admin/dashboard",
+        "evidence": "GET /admin/dashboard HTTP/1.1\nAuthorization: Bearer user_token"
+    },
+    {
+        "alert": "Broken Access Control",
+        "risk": "High",
+        "confidence": "High",
+        "description": "Users can access sensitive user profiles without proper authorization.",
+        "solution": "Ensure that user profiles are only accessible to authorized users.",
+        "reference": "https://owasp.org/www-project-top-ten/2021/Broken-Access-Control",
+        "cweid": "284",
+        "wascid": "22",
+        "url": "http://localhost:3000/user/profile",
+        "evidence": "GET /user/profile HTTP/1.1\nAuthorization: Bearer user_token"
+    },
+    {
+        "alert": "Cryptographic Failures",
+        "risk": "Medium",
+        "confidence": "Medium",
+        "description": "Sensitive data is stored without encryption, making it vulnerable to unauthorized access.",
+        "solution": "Use strong encryption algorithms to protect sensitive data at rest and in transit.",
+        "reference": "https://owasp.org/www-project-top-ten/2021/Cryptographic-Failures",
+        "cweid": "310",
+        "wascid": "4",
+        "url": "http://localhost:3000/user/profile",
+        "evidence": "GET /user/profile HTTP/1.1\nAuthorization: Bearer user_token"
+    },
+    {
+        "alert": "Injection",
+        "risk": "High",
+        "confidence": "High",
+        "description": "The application is vulnerable to SQL injection, allowing attackers to execute arbitrary SQL queries.",
+        "solution": "Use parameterized queries or prepared statements to prevent SQL injection.",
+        "reference": "https://owasp.org/www-project-top-ten/2021/Injection",
+        "cweid": "89",
+        "wascid": "19",
+        "url": "http://localhost:3000/rest/user/login",
+        "evidence": "POST /rest/user/login HTTP/1.1\nContent-Type: application/json\n\n{\"email\":\"admin@juice-sh.op\",\"password\":\"' OR '1'='1\"}"
+    },
+    {
+        "alert": "Injection",
+        "risk": "High",
+        "confidence": "High",
+        "description": "The search feature is vulnerable to SQL injection, allowing attackers to manipulate search queries.",
+        "solution": "Implement input validation and use parameterized queries.",
+        "reference": "https://owasp.org/www-project-top-ten/2021/Injection",
+        "cweid": "89",
+        "wascid": "19",
+        "url": "http://localhost:3000/rest/products/search?q=test",
+        "evidence": "GET /rest/products/search?q=test' OR '1'='1' HTTP/1.1"
+    },
+    {
+        "alert": "Insecure Design",
+        "risk": "Medium",
+        "confidence": "Medium",
+        "description": "The application lacks proper security controls in its design, making it susceptible to various attacks.",
+        "solution": "Adopt secure design principles and conduct threat modeling during the design phase.",
+        "reference": "https://owasp.org/www-project-top-ten/2021/Insecure-Design",
+        "cweid": "20",
+        "wascid": "4",
+        "url": "http://localhost:3000/",
+        "evidence": "No security controls in place for user input validation."
+    },
+    {
+        "alert": "Security Misconfiguration",
+        "risk": "Low",
+        "confidence": "Low",
+        "description": "The server exposes detailed error messages and version information in HTTP headers, which could aid attackers.",
+        "solution": "Disable detailed error messages and remove unnecessary server information from headers.",
+        "reference": "https://owasp.org/www-project-top-ten/2021/Security-Misconfiguration",
+        "cweid": "16",
+        "wascid": "14",
+        "url": "http://localhost:3000",
+        "evidence": "HTTP/1.1 500 Internal Server Error\nServer: Express\nX-Powered-By: Express\nContent-Type: text/html; charset=utf-8\n\nError: Invalid input"
+    }
+]
