@@ -7,7 +7,7 @@ This project provides a framework for identifying, understanding, and prioritizi
 
 ## Prerequisites
 
-- A Linux-based system (Ubuntu recommended)
+- A Linux-based system
 - Docker
 - Python 3.x
 - Java (for OWASP ZAP)
